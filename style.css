@@ -1,0 +1,37 @@
+#display-eye {
+    height: 100px;
+    width: 100px;
+    background-color: aquamarine;
+}
+#button-eye{
+    margin-top: 20px;
+    width: 200px;
+    height: 30px;
+}
+#display-eye {
+    margin-top: 20px;
+}
+#button-eye:hover {
+    background-color: aquamarine;
+}
+#buttons {
+    button:nth-child(1):hover{
+        background-color: red;
+    }
+    button:nth-child(2):hover{
+        background-color: green;
+    }
+    button:nth-child(3):hover{
+        background-color: blue;
+    }
+    button:nth-child(4):hover{
+        background-color: yellow;
+    }
+    button:nth-child(5):hover{
+        background-color: purple;
+    }
+}
+#buttons button {
+    width: 70px;
+    height: 30px;
+}
